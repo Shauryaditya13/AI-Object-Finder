@@ -1,48 +1,34 @@
-body
-{
-    background-image: url("background1.jpg");
+.bg{
+    background-image: url("bg1.jpg");
+    background-size: cover;
 }
-.heading {
+h1{
     width: 100%;
-    text-align: left;
-    margin-top: 0.35px;
+    font-size: 25px !important;
+    margin: 0;
+    font-style: italic;
 }
-.heading h3 {
-    display: inline;
+button{
+    font-size: 18px !important;
 }
-.heading button {
-    float: right;
-    border: 2px solid mediumturquoise
-}
-#start, #status, #restart {
-    font-size: 20px;
-}
-#start{
-    margin-right: 10px;
-}
-.modal-dialog {
-    width: 90%;
-}
-.btn_close {
-    display: inline-block;
-}
-.footer {
-    background-color: mistyrose;
-    line-height: 2;
-    margin: 0px;
-    width: 100%;
-    text-align: center;
+#copyright_footer{
+    position: fixed;
     bottom: 0;
-    font-size: 18px;
-    
+    width: 100%;
+    background-color: aqua;
+    line-height: 2;
+    font-size: 15px;
 }
-.modal-body {
-    font-size: 18px;
+canvas{
+    border: 5px dashed navy;
+    margin-top: 80px;
+    box-shadow: 5px 5px 5px teal;
 }
-canvas {
-    border-radius: 10px;
-    border-color: teal;
-    border-width: 3px;
-    border-style: solid;
-    box-shadow: 5px 5px 5px skyblue;
+input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+}
+#status {
+    margin-right: 15px;
 }
